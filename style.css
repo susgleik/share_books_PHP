@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
+padding: 0;
+background-color: white;
+}
+
+
+main {
+padding: 2rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex: 1;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #1B8057;
+padding: 1rem;
+color: white;
+
+}
+
+.logo img {
+width: 50px;
+height: auto;
+margin-right: 1rem;
+}
+
+.nav-list {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+
+}
+
+.nav-list li {
+margin-right: 5.3rem;
+}
+
+.nav-list a {
+text-decoration: none;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+.logo img {
+width: 90px;
+height: auto;  
+}
+
+.logo-name h1 {
+margin-top: 30px;
+font-family: 'Roboto', sans-serif;    
+}
+
+.logoAndContainer{
+display: flex;
+}
+
+.carrito{
+display: flex;
+margin-right: 0.1rem;
+
+}
+.carrito img{
+width: 2.8rem;
+height: 2.8rem;
+}
+
+.headline{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+.product {
+border: 1px solid #ddd;
+padding: 1rem;
+margin: 1rem;
+text-align: center;
+max-width: 300px;
+height: 100%;
+}
+
+.product img {
+max-width: 100%;
+}
+
+
+.item {
+border-radius: 10px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+margin: 1.1rem;
+width: 290px;
+height: auto; 
+display: flex;
+flex-direction: column;
+}
+
+.item img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+transition: all .5s;
+}
+
+.item figure {
+overflow: hidden;
+}
+
+.item:hover img {
+transform: scale(1.2);
+}
+
+.info-product {
+padding: 15px 30px;
+line-height: 1.5;
+display: flex;
+flex-direction: column;
+gap: 10px;
+flex: 1; 
+}
+
+.info-product h2 {
+font-size: 1.3rem;
+padding-bottom: 0px;
+}
+
+.info-product p {
+font-size: 1rem;
+font-weight: bold;
+}
+
+.info-product button {
+margin-top: auto;
+background-color: #54B435;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.info-product button:hover {
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+
+}
+
+footer {
+background-color: #1B8057;
+color: white;
+text-align: center;
+padding: 0.5rem 0;
+flex-shrink: 0;
+}
+
+
+.div_login_form{
+    
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input_box {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #1B8057;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B8057;
+}
+
+/*estilos del registro*/
+
+.div_register_form{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_form{
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    text-align: center;
+}
+
+.register_form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.register_form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register_form input[type="submit"] {
+    background-color: #1B8057;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register_form input[type="submit"]:hover {
+    background-color: #1B8057;
+}
